@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Mitr
+  host: Mitr
+  disk_quota: 1024M
+  services:
+  - Mitr-AdvancedMobileAccess
+  - Mitr-imfpush
+  - Mitr-cloudantNoSQLDB
